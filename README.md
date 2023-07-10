@@ -8,5 +8,5 @@ just for small but engaging tricks, like Emeifeng.
 
 ```
 chmod +x c1.main.sh s1.get_transcript_seq.R
-./c1.main.sh gffPath genomePath seqFileName_for_each_cds cdsSeqFileName_for_each_mRNA pepSeqFileName_for_each_mRNA
+./c1.main.sh gffPath genomePath FileName_seq_for_each_cds FileName_cdsSeq_for_each_mRNA FileName_pepSeq_for_each_mRNA
 ```
