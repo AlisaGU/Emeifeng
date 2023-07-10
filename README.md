@@ -1,2 +1,2 @@
 # Emeifeng
-just for small but useful tricks
+just for small but engaging tricks, like Emeifeng.
