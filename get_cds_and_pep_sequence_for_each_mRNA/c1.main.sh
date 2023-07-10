@@ -7,11 +7,11 @@
 # FUNCTIONS TODO:
 
 # VARIABLE NAMING TODO:
-gffPath=""
-genomePath=""
-seq_for_each_cds=""
-cdsSeq_for_each_mRNA=""
-pepSeq_for_each_mRNA=""
+gffPath=$1
+genomePath=$2
+seq_for_each_cds=$3
+cdsSeq_for_each_mRNA=$4
+pepSeq_for_each_mRNA=$5
 # VARIABLE NAMING for test module TODO:
 
 # PROCESS TODO:
