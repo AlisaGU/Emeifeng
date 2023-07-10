@@ -16,4 +16,4 @@ pepSeq_for_each_mRNA=$5
 
 # PROCESS TODO:
 seqkit subseq --gtf $gffPath --feature cds $genomePath >$seq_for_each_cds
-s1.s1_get_longest_transcript_seq.R $gffPath $seq_for_each_cds $cdsSeq_for_each_mRNA $pepSeq_for_each_mRNA
+s1_get_transcript_seq.R $gffPath $seq_for_each_cds $cdsSeq_for_each_mRNA $pepSeq_for_each_mRNA
