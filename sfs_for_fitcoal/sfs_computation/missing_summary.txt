@@ -1,4 +1,0 @@
-0
-fre	16838
-ratio	1
-cum_ratio	1
