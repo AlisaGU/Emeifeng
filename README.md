@@ -25,3 +25,4 @@ Code directory: sfs_for_fitcoal
 
 ./compute_sfs_for_fitcoal.sh `pwd`/test.nomissing.vcf.gz "outgroup_shan" `pwd`
 ```
+Thanks to Baolin zhang (the provider of input files) and Sumei Zhou (double check)'s help!
