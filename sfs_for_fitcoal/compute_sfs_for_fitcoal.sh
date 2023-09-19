@@ -7,8 +7,7 @@ vcf=$1
 outgroup_name=$2
 code_dir=$3
 # VARIABLE NAMING for test module TODO:
-# vcf="/picb/evolgen/users/gushanshan/projects/sfs_for_fitcoal/test.vcf"
-# outgroup_name="shanyang-1_FDSW202130148-1r"
+
 # PROCESS TODO:
 ## Warning ##
 echo "####"
