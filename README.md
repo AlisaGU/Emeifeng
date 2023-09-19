@@ -20,6 +20,7 @@ Code directory: sfs_for_fitcoal
   
 ```
 # create a directory, named sfs_computation, to place files.
+# Usage: ./compute_sfs_for_fitcoal.sh input_vcf(gz or not) outgroup_name_in_vcf script_dir
 
 ./compute_sfs_for_fitcoal.sh `pwd`/test.missing.vcf.gz "outgroup_shan" `pwd`
 
