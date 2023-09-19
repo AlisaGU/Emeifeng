@@ -15,11 +15,13 @@ Code directory: sfs_for_fitcoal
 
 - test.vcf.gz: an example of the input file
 - sfs_computation/missing_summary.txt: missing site summary for the input vcf
-- sfs_computation/0.pdf: sfs distribution
-- sfs_computation/unfolded_sfs.txt: unfolded sfs
+- sfs_computation/*.pdf: sfs distribution for each missing site type.
+- sfs_computation/unfolded_sfs.txt: unfolded sfs for each missing site type. If the proportion of no missing site is super high, such as >90%, it's ok to just select the first line of the unfolded_sfs.txt. The format should be adjusted by Fitcoal's requirements.
   
 ```
 # create a directory, named sfs_computation, to place files.
 
-./compute_sfs_for_fitcoal.sh `pwd`/test.vcf.gz "outgroup_shan" `pwd`
+./compute_sfs_for_fitcoal.sh `pwd`/test.missing.vcf.gz "outgroup_shan" `pwd`
+
+./compute_sfs_for_fitcoal.sh `pwd`/test.nomissing.vcf.gz "outgroup_shan" `pwd`
 ```
